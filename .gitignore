@@ -13,6 +13,12 @@ dist
 dist-ssr
 *.local
 
+# Generated
+public/index.md
+
+# Cloudflare Wrangler (local cache, contains account metadata)
+.wrangler/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

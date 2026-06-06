@@ -1,0 +1,7 @@
+name = "ihamza-dev"
+main = "workers/markdown-negotiation.js"
+compatibility_date = "2024-09-23"
+
+routes = [
+  { pattern = "ihamza.dev/*", zone_name = "ihamza.dev" }
+]
